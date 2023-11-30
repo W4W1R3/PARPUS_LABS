@@ -23,12 +23,13 @@ Create an HTML file (e.g., `index.html`) with the following content:
 
 Edit the HTML file to include a script with malicious intentions:
 
-`<!-- Add this script within the <head> or <body> section -->
+```
+<!-- Add this script within the <head> or <body> section -->
 <script>
     alert('Your system has been compromised!');
     // Add more malicious actions here
-</script>
-`
+</scrip
+```
 
 # Setting up Apache2 Server
 
