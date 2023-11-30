@@ -30,18 +30,24 @@ Replace [dictionary_file] with the path to your dictionary file, [BSSID] with th
 
 ## Cracking Passwords using aircrack-ng and Crunch (Brute Force Method)
 
-Create a Wordlist with Crunch: `crunch [min_length] [max_length] -o [output_file]`
+Create a Wordlist with Crunch: 
+            
+            `crunch [min_length] [max_length] -o [output_file]`
+            
+            Replace [min_length] and [max_length] with the desired password length range.
 
-Replace [min_length] and [max_length] with the desired password length range.
-
-Command: `sudo aircrack-ng -w [wordlist_file] -b [BSSID] [capture_file.cap]`
-
-Replace [wordlist_file] with the path to your wordlist file.
+Command: 
+            
+            `sudo aircrack-ng -w [wordlist_file] -b [BSSID] [capture_file.cap]`
+            
+            Replace [wordlist_file] with the path to your wordlist file.
 
 ## Executing a De-authentication Attack
 
-Command: `sudo aireplay-ng --deauth [number_of_deauths] -a [BSSID] -c [client_MAC] [monitored_interface]`
+Command: 
 
-Replace [number_of_deauths], [BSSID], [client_MAC], and [monitored_interface] with the appropriate values.
-
-Remember to use this knowledge responsibly and only on networks for which you have explicit permission.
+        `sudo aireplay-ng --deauth [number_of_deauths] -a [BSSID] -c [client_MAC] [monitored_interface]`
+        
+        Replace [number_of_deauths], [BSSID], [client_MAC], and [monitored_interface] with the appropriate values.
+        
+        Remember to use this knowledge responsibly and only on networks for which you have explicit permission.
