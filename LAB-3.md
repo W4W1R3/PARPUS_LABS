@@ -1,6 +1,6 @@
 # LAB 3: Scanning Networks
 
-<h1>Basic Nmap Syntax</h1>
+<h2>Basic Nmap Syntax</h2>
 
 Perform a Ping Scan `nmap -sn 192.168.1.0/24`
 
