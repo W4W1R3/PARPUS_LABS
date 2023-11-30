@@ -59,7 +59,7 @@ Decide on the disk partitioning. For simplicity, you can choose the option to us
 
 Some distributions offer guided partitioning for beginners.
 
-# Create a User Account:
+<h3>Create a User Account:</h3> 
 
 Set up a username and password for the main user account.
 
@@ -69,7 +69,7 @@ Optionally, create a root password.
 
 Choose the location to install the boot loader (usually the default option is the entire hard drive).
 
-# Complete the Installation:
+<h3>Complete the Installation:</h3> 
 
 Review the summary of your choices. Confirm and proceed with the installation.
 
