@@ -18,7 +18,7 @@ Download the ISO image for your system architecture (32-bit or 64-bit).
 
 Use a tool like Rufus (for Windows) or dd (for Linux) to create a bootable USB drive.
 
-![Screenshot](https://github.com/W4W1R3/PARPUS_LABS/blob/main/Files/dd.png)
+![Screenshot](https://github.com/W4W1R3/PARPUS_LABS/blob/main/Files/dd.png) ![Screenshot](https://github.com/W4W1R3/CTF-CHRONICLES/edit/main/README.md)
 
 Alternatively, you can burn the ISO image to a DVD.
 
