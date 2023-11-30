@@ -55,7 +55,7 @@ Determine the nature of the traffic (HTTP, FTP, etc.).
 #### 4.3 Extracting Files
 If any files were transmitted, extract and analyze them for content.
 
-### 5. Analyzing Malware
+# 5. Analyzing Malware
 #### 5.1 Look for Suspicious Patterns
 Once you have captured some traffic, you need to identify the packets that belong to the malware communication. This can be challenging, as malware often uses encryption, obfuscation, or spoofing to evade detection. However, you can look for some clues, such as unusual ports, domains, or patterns, that can indicate malicious activity. You can also compare the traffic with a baseline of normal traffic from the same host or network.
 
