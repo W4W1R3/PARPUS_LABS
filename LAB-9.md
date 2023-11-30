@@ -39,11 +39,65 @@ To retrieve SAM and SYSTEM files from an offline Windows OS, follow these steps:
 1. Use forensic imaging tools like dd or FTK Imager.
 2. Create a bit-by-bit copy of the storage media for analysis.
 
-## 6. Using Autopsy, FTK, etc., for Forensic Analyses
 
-1. Install and configure the forensic analysis tool (e.g., Autopsy, FTK).
-2. Load the forensic image for analysis.
-3. Conduct various analyses such as file recovery, timeline analysis, etc.
+# 6. Using Autopsy, FTK, etc., for Forensic Analyses
+
+## a. File Recovery Analysis:
+
+**Purpose:** Identify and recover deleted or hidden files from the forensic image.
+
+**Procedure:**
+- Use the file recovery feature in the chosen forensic tool.
+- Examine recovered files for relevance to the investigation.
+
+## b. Timeline Analysis:
+
+**Purpose:** Create a chronological timeline of events based on system activities.
+
+**Procedure:**
+- Analyze system logs and timestamps.
+- Use the timeline analysis feature in the forensic tool.
+- Identify key events and their sequence.
+
+## c. Keyword Search and Indexing:
+
+**Purpose:** Locate specific terms or keywords within the forensic image.
+
+**Procedure:**
+- Perform a keyword search using the forensic tool.
+- Review search results for relevant information.
+
+## d. Registry Analysis:
+
+**Purpose:** Examine Windows registry entries for system configuration and user activities.
+
+**Procedure:**
+- Access the registry analysis module in the forensic tool.
+- Investigate registry keys related to user accounts, installed software, etc.
+
+## e. Network Traffic Analysis:
+
+**Purpose:** Analyze network activity to identify communication patterns and potential security incidents.
+
+**Procedure:**
+- Use network analysis features within the forensic tool.
+- Examine communication logs and network connections.
+
+## f. Metadata Analysis:
+
+**Purpose:** Extract and analyze metadata from files to gather additional information.
+
+**Procedure:**
+- Access the metadata analysis tool in the forensic software.
+- Review metadata of files for details like creation/modification timestamps, author information, etc.
+
+## g. Hash Analysis:
+
+**Purpose:** Verify file integrity and identify known malicious files using hash values.
+
+**Procedure:**
+- Calculate and compare hash values of files against known databases.
+- Identify any files with suspicious or known malicious hashes.
 
 ## 7. Extracting Evidence and Providing Expert Opinion
 
