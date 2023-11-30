@@ -11,7 +11,7 @@ In this lab, we will explore the process of capturing and analyzing network traf
 - Extract files from captured traffic.
 - Analyze potential malware in network traffic.
 
-## Steps
+# Steps
 
 ### 1. Installing Wireshark
 **Windows:**
