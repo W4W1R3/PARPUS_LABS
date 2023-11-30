@@ -5,13 +5,19 @@ Objective: Understand the basics of network setup and address assignment.
 ## {1A} Connecting Two Computers Directly
 
 Task: Connect two computers using a crossover cable.
+
 Steps:
+
     • Assign static IP addresses to each computer.
     • Set a static IP address (e.g., 192.168.1.1) with subnet mask 255.255.255.0.
     • Verify connectivity using basic commands (ping).
-{1B} Connecting More Than Two Computers Using a Switch
+    
+# {1B} Connecting More Than Two Computers Using a Switch
+
 Task: Set up a small network with three or more computers using a switch.
+
 Steps:
+
     • Configure the switch.
     • Assign IP addresses using DHCP.
     • Test network connectivity.
