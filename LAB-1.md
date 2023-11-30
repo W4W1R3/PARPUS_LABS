@@ -35,7 +35,9 @@ Steps:
 # {1D} Setting Up Static and DHCP
 
 Task: Understand the difference between static and dynamic IP assignment.
+
 Steps:
+
     • Assign static IP addresses to devices in a network.
     • Enable DHCP on a server and configure clients to obtain IP dynamically.
     • Analyze the advantages and disadvantages of static vs. dynamic addressing.
