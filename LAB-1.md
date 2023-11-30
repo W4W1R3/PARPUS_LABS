@@ -21,13 +21,19 @@ Steps:
     • Configure the switch.
     • Assign IP addresses using DHCP.
     • Test network connectivity.
-	{1C} Connecting Two Networks Through a Router
+    
+# {1C} Connecting Two Networks Through a Router
+
 Task: Introduce a router to connect two separate networks.
+
 Steps:
+
     • Configure router interfaces.
     • Set up routing tables.
     • Test communication between devices on different networks.
-{1D} Setting Up Static and DHCP
+    
+# {1D} Setting Up Static and DHCP
+
 Task: Understand the difference between static and dynamic IP assignment.
 Steps:
     • Assign static IP addresses to devices in a network.
