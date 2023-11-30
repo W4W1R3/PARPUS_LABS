@@ -1,5 +1,7 @@
 # Data and Password Recovery Procedures
 
+RES: [FORENSIC LAB WRITEUP](https://drive.google.com/file/d/1lNQUVXON_Nk-G9vy2PtPgW-BzVKazl7Z/view?usp=sharing)
+
 This document outlines practical steps for data and password recovery in various scenarios. It covers retrieving files, recovering passwords, and conducting forensic analyses.
 
 #### 1. Retrieving SAM and SYSTEM Files from an Offline Windows OS
