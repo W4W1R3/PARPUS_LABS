@@ -38,3 +38,27 @@ Ensure Apache2 is installed on your server. Place your HTML file in the Apache r
 Start or restart Apache2:
 
 `sudo service apache2 start`
+
+# BeEF (Browser Exploitation Framework) Setup
+
+Install BeEF on your server:
+
+`sudo apt-get install beef-xss`
+
+Start BeEF:
+
+`sudo beef-xss`
+
+Access the BeEF control panel at http://localhost:3000/ui/panel.
+
+# Executing Social Engineering Attacks
+
+    Send the link to your HTML page to the target.
+    When the target opens the page, the malicious JavaScript executes.
+    Monitor the BeEF control panel for active hooked browsers.
+    Perform various social engineering attacks using BeEF.
+
+Note: Ensure all activities are performed responsibly and within legal boundaries. Unauthorized exploitation is strictly prohibited.
+
+
+
