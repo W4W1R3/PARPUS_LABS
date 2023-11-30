@@ -59,11 +59,10 @@ In this lab, we will explore the process of capturing and analyzing network traf
 
 ### 5. Analyzing Malware
 #### 5.1 Look for Suspicious Patterns
-- Once you have captured some traffic, you need to identify the packets that belong to the malware communication. This can be challenging, as malware often uses encryption, obfuscation, or spoofing to evade detection. However, you can look for some clues, such as unusual ports, domains, or patterns, that can indicate malicious activity. You can also compare the traffic with a baseline of normal traffic from the same host or network.
+Once you have captured some traffic, you need to identify the packets that belong to the malware communication. This can be challenging, as malware often uses encryption, obfuscation, or spoofing to evade detection. However, you can look for some clues, such as unusual ports, domains, or patterns, that can indicate malicious activity. You can also compare the traffic with a baseline of normal traffic from the same host or network.
 
 #### 5.2 Identify Potential Malware
-- Based on observed behavior, identify potential malware in the network traffic.
-- Note any indicators of compromise.
+After you have identified the malware traffic, you can analyze the malware protocol to understand how the malware communicates with its servers, victims, or peers. You can use Wireshark's built-in tools, such as dissectors, decoders, or statistics, to examine the structure, content, and behavior of the protocol. You can also use external tools, such as hex editors, encryption tools, or scripting languages, to decode, decrypt, or manipulate the protocol.
 
 ## Conclusion
 Wireshark provides valuable insights into network activities, allowing us to troubleshoot issues, analyze security threats, and understand the flow of data on a network.
