@@ -29,21 +29,22 @@ Visit the official website of the chosen Linux distribution.
 
 Download the ISO image for your system architecture (32-bit or 64-bit).
 
-# Create a Bootable USB or DVD:
+<h3>Create a Bootable USB or DVD:</h3> 
 
 Use a tool like Rufus (for Windows) or dd (for Linux) to create a bootable USB drive.
 
 Alternatively, you can burn the ISO image to a DVD.
 
-# Boot from USB or DVD:
+<h3>Boot from USB or DVD:</h3> 
 
 Insert the USB drive or DVD into the computer. Restart the computer and enter the BIOS/UEFI settings. Set the boot order to prioritize the USB drive or DVD.
 
-# Start the Installation:
+<h3>Start the Installation:</h3> 
 
 Boot from the USB or DVD to start the Linux live environment. Explore the live environment to ensure compatibility with your hardware.
 
-# Launch the Installer:
+<h2> Launch the Installer:</h2>
+
 Find the installer icon on the desktop or in the application menu.
 
 Double-click to launch the installer.
