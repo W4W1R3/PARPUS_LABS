@@ -65,7 +65,7 @@ Set up a username and password for the main user account.
 
 Optionally, create a root password.
 
-# Install the Boot Loader:
+<h3> Install the Boot Loader:</h3>
 
 Choose the location to install the boot loader (usually the default option is the entire hard drive).
 
