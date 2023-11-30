@@ -53,7 +53,7 @@ Double-click to launch the installer.
 The installation wizard will guide you through the process.
 Choose the installation language, keyboard layout, and time zone.
 
-# Partitioning:
+<h3>Partitioning:</h3> 
 
 Decide on the disk partitioning. For simplicity, you can choose the option to use the entire disk.
 
