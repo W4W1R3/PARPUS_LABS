@@ -9,6 +9,7 @@ Select a Linux distribution suitable for information security and forensics. Pop
 <h3>Download the ISO Image:</h3> 
 
 Visit the official website of the chosen Linux distribution.
+
 [!Screenshot](https://github.com/W4W1R3/PARPUS_LABS/blob/main/Files/linux-distro-stickers.png)
 
 Download the ISO image for your system architecture (32-bit or 64-bit).
