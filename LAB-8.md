@@ -56,4 +56,4 @@ Command:
         
         Replace [number_of_deauths], [BSSID], [client_MAC], and [monitored_interface] with the appropriate values.
         
-        Remember to use this knowledge responsibly and only on networks for which you have explicit permission.
+Remember to use this knowledge responsibly and only on networks for which you have explicit permission.
