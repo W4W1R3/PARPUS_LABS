@@ -62,7 +62,7 @@ Once you have captured some traffic, you need to identify the packets that belon
 #### 5.2 Identify Potential Malware
 After you have identified the malware traffic, you can analyze the malware protocol to understand how the malware communicates with its servers, victims, or peers. You can use Wireshark's built-in tools, such as dissectors, decoders, or statistics, to examine the structure, content, and behavior of the protocol. You can also use external tools, such as hex editors, encryption tools, or scripting languages, to decode, decrypt, or manipulate the protocol.
 
-## Conclusion
+# Conclusion
 Wireshark provides valuable insights into network activities, allowing us to troubleshoot issues, analyze security threats, and understand the flow of data on a network.
 
 Feel free to explore additional features and functionalities offered by Wireshark to enhance your network analysis skills.
