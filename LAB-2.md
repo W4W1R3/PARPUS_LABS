@@ -30,6 +30,7 @@ Visit the official website of the chosen Linux distribution.
 Download the ISO image for your system architecture (32-bit or 64-bit).
 
 # Create a Bootable USB or DVD:
+
 Use a tool like Rufus (for Windows) or dd (for Linux) to create a bootable USB drive.
 Alternatively, you can burn the ISO image to a DVD.
     • Boot from USB or DVD:
