@@ -10,7 +10,7 @@ Perform a detailed scan with OS detection  `nmap -O target-IP`
 
 Scan all ports to identify services  `nmap -p- target-IP`
 
-# Comprehensive scan with OS detection, version detection, script scanning, and traceroute
+<h2> Comprehensive scan with OS detection, version detection, script scanning, and traceroute </h2>
 
-`nmap -A 192.168.1.1`
+`nmap -A target-IP`
 
