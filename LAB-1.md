@@ -1,7 +1,8 @@
 # LAB 1: Setting Up Simple Networks and Address Assignment
 
 Objective: Understand the basics of network setup and address assignment.
-{1A} Connecting Two Computers Directly
+
+## {1A} Connecting Two Computers Directly
 Task: Connect two computers using a crossover cable.
 Steps:
     • Assign static IP addresses to each computer.
