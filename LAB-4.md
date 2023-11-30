@@ -31,7 +31,7 @@ In this lab, we will explore the process of capturing and analyzing network traf
     Log out and log back in for the changes to take effect.
 
 ### 2. Configuring Wireshark
-- Open Wireshark and select the network interface to capture traffic.
+Open Wireshark and select the network interface to capture traffic.
 
 ### 3. Capturing Traffic
 #### 3.1 Start Capturing
@@ -41,19 +41,19 @@ Open Wireshark and choose the appropriate interface. Click the "Start" button to
 Conduct various network activities to generate traffic. This can include browsing websites, downloading files, or any network-related tasks.
 
 #### 3.3 Stop the Capture
-- Once sufficient data is captured, click the "Stop" button to end the capture.
+Once sufficient data is captured, click the "Stop" button to end the capture.
 
 ### 4. Analyzing Captured Traffic
 #### 4.1 Source and Destination IP Addresses
-- Identify the source and destination IP addresses in the captured packets.
-- Look for patterns or anomalies.
+Identify the source and destination IP addresses in the captured packets.
+Look for patterns or anomalies.
 
 #### 4.2 Port Numbers and Protocols
-- Analyze port numbers and protocols used in the communication.
-- Determine the nature of the traffic (HTTP, FTP, etc.).
+Analyze port numbers and protocols used in the communication.
+Determine the nature of the traffic (HTTP, FTP, etc.).
 
 #### 4.3 Extracting Files
-- If any files were transmitted, extract and analyze them for content.
+If any files were transmitted, extract and analyze them for content.
 
 ### 5. Analyzing Malware
 #### 5.1 Look for Suspicious Patterns
