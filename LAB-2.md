@@ -43,7 +43,7 @@ Insert the USB drive or DVD into the computer. Restart the computer and enter th
 
 Boot from the USB or DVD to start the Linux live environment. Explore the live environment to ensure compatibility with your hardware.
 
-<h2> Launch the Installer:</h2>
+<h3> Launch the Installer:</h3>
 
 Find the installer icon on the desktop or in the application menu.
 
