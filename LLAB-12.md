@@ -1,5 +1,8 @@
 # Fraud and Social Engineering
 
+
+RESOURCES: [A SETTOKIT WRITEUP](https://github.com/W4W1R3/PARPUS_LABS/blob/main/Files/Group%201%20Labs%20Hacking%20Mobile%20Platforms%202.pdf)
+
 ## Introduction
 
 Fraud and social engineering involve manipulating individuals to gain confidential information or perform actions that may not be in their best interest. Understanding the psychological principles behind social engineering is crucial for preventing and mitigating such attacks.
@@ -86,6 +89,9 @@ Understanding fraud and social engineering is essential for cybersecurity profes
 3. **Creating Awareness Campaigns**
 
    - **Educational Material**: Develop infographics, videos, or presentations to educate individuals and organizations about common scams and how to avoid them.
+
+
+
 
 ## Conclusion
 
