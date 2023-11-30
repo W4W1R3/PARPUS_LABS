@@ -1,11 +1,15 @@
 # LAB 2: Using the Linux OS
 
-#Installation of Linux OS:
+# Installation of Linux OS:
 
- #Choose a Linux Distribution:
+ # Choose a Linux Distribution:
+ 
 Select a Linux distribution suitable for information security and forensics. Popular choices include Kali Linux, Parrot Security OS, and Ubuntu (with additional security tools installed).
-    • Download the ISO Image:
+
+# Download the ISO Image:
+
 Visit the official website of the chosen Linux distribution.
+```
 1 Ubuntu
 2 Debian
 3 CentOS Linux
@@ -21,8 +25,11 @@ Visit the official website of the chosen Linux distribution.
 13 Arch Linux
 14 Manjaro
 15 Oracle Linux 
+```
+
 Download the ISO image for your system architecture (32-bit or 64-bit).
-    • Create a Bootable USB or DVD:
+
+# Create a Bootable USB or DVD:
 Use a tool like Rufus (for Windows) or dd (for Linux) to create a bootable USB drive.
 Alternatively, you can burn the ISO image to a DVD.
     • Boot from USB or DVD:
