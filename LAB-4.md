@@ -30,7 +30,7 @@ In this lab, we will explore the process of capturing and analyzing network traf
     ```
     Log out and log back in for the changes to take effect.
 
-### 2. Configuring Wireshark
+# 2. Configuring Wireshark
 Open Wireshark and select the network interface to capture traffic.
 
 ### 3. Capturing Traffic
