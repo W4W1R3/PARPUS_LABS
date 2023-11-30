@@ -35,12 +35,10 @@ In this lab, we will explore the process of capturing and analyzing network traf
 
 ### 3. Capturing Traffic
 #### 3.1 Start Capturing
-- Open Wireshark and choose the appropriate interface.
-- Click the "Start" button to begin capturing traffic.
+Open Wireshark and choose the appropriate interface. Click the "Start" button to begin capturing traffic.
 
 #### 3.2 Perform Network Activities
-- Conduct various network activities to generate traffic.
-- This can include browsing websites, downloading files, or any network-related tasks.
+Conduct various network activities to generate traffic. This can include browsing websites, downloading files, or any network-related tasks.
 
 #### 3.3 Stop the Capture
 - Once sufficient data is captured, click the "Stop" button to end the capture.
