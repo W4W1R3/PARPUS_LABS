@@ -1,6 +1,6 @@
 # LAB 2: Using the Linux OS
 
-# Installation of Linux OS:
+ <h2> Installation of Linux OS: </h2>
 
  # Choose a Linux Distribution:
  
