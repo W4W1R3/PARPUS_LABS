@@ -14,19 +14,25 @@ sudo apt-get install aircrack-ng
 sudo apt-get install crunch
 ```
 ## Switching Adapters to Monitor Mode
-Command:  `sudo airmon-ng start [interface]`
+Command:  
 
-Replace [interface] with your Wi-Fi interface name.
+            `sudo airmon-ng start [interface]`
+            
+            Replace [interface] with your Wi-Fi interface name.
 
 ## Capturing Handshakes
-Command: `sudo airodump-ng [monitored_interface]`
-
-Replace [monitored_interface] with the interface created in monitor mode.
+Command: 
+            
+            `sudo airodump-ng [monitored_interface]`
+            
+            Replace [monitored_interface] with the interface created in monitor mode.
 
 ## Cracking Passwords using aircrack-ng (Dictionary Attack)
-Command: `sudo aircrack-ng -w [dictionary_file] -b [BSSID] [capture_file.cap]`
+Command: 
 
-Replace [dictionary_file] with the path to your dictionary file, [BSSID] with the target BSSID, and [capture_file.cap] with the handshake capture file.
+            `sudo aircrack-ng -w [dictionary_file] -b [BSSID] [capture_file.cap]`
+            
+            Replace [dictionary_file] with the path to your dictionary file, [BSSID] with the target BSSID, and [capture_file.cap] with the handshake capture file.
 
 ## Cracking Passwords using aircrack-ng and Crunch (Brute Force Method)
 
