@@ -2,7 +2,7 @@
 
 This document outlines practical steps for data and password recovery in various scenarios. It covers retrieving files, recovering passwords, and conducting forensic analyses.
 
-## 1. Retrieving SAM and SYSTEM Files from an Offline Windows OS
+#### 1. Retrieving SAM and SYSTEM Files from an Offline Windows OS
 
 To retrieve SAM and SYSTEM files from an offline Windows OS, follow these steps:
 
