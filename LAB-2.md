@@ -2,11 +2,11 @@
 
  <h2> Installation of Linux OS: </h2>
 
- # Choose a Linux Distribution:
+ <h3> Choose a Linux Distribution: </h3> 
  
 Select a Linux distribution suitable for information security and forensics. Popular choices include Kali Linux, Parrot Security OS, and Ubuntu (with additional security tools installed).
 
-# Download the ISO Image:
+<h3>Download the ISO Image:</h3> 
 
 Visit the official website of the chosen Linux distribution.
 ```
