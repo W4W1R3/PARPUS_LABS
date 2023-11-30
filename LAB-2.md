@@ -9,23 +9,7 @@ Select a Linux distribution suitable for information security and forensics. Pop
 <h3>Download the ISO Image:</h3> 
 
 Visit the official website of the chosen Linux distribution.
-```
-1 Ubuntu
-2 Debian
-3 CentOS Linux
-4 CentOS Stream
-5 Red Hat Enterprise Linux (RHEL)
-6 Gentoo
-7 Fedora
-8 OpenSUSE
-9 Scientific Linux
-10 CloudLinux
-11 Elementary OS
-12 Linux Mint
-13 Arch Linux
-14 Manjaro
-15 Oracle Linux 
-```
+[!Screenshot](https://github.com/W4W1R3/PARPUS_LABS/blob/main/Files/linux-distro-stickers.png)
 
 Download the ISO image for your system architecture (32-bit or 64-bit).
 
