@@ -14,11 +14,11 @@ In this lab, we will explore the process of capturing and analyzing network traf
 ## Steps
 
 ### 1. Installing Wireshark
-- **Windows:**
+**Windows:**
   - [Download Wireshark](https://www.wireshark.org/download.html) for Windows.
   - Follow the installation instructions.
 
-- **Linux:**
+  **Linux:**
   - Use the package manager to install Wireshark. For example, on Debian-based systems:
     ```bash
     sudo apt-get update
