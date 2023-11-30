@@ -59,8 +59,7 @@ In this lab, we will explore the process of capturing and analyzing network traf
 
 ### 5. Analyzing Malware
 #### 5.1 Look for Suspicious Patterns
-- Examine the captured traffic for any unusual or suspicious patterns.
-- Pay attention to unexpected behaviors.
+- Once you have captured some traffic, you need to identify the packets that belong to the malware communication. This can be challenging, as malware often uses encryption, obfuscation, or spoofing to evade detection. However, you can look for some clues, such as unusual ports, domains, or patterns, that can indicate malicious activity. You can also compare the traffic with a baseline of normal traffic from the same host or network.
 
 #### 5.2 Identify Potential Malware
 - Based on observed behavior, identify potential malware in the network traffic.
