@@ -16,7 +16,7 @@ msfvenom -p [payload] -f [format] LHOST=[your_IP] LPORT=[port] -o [output_filena
       Set your IP with LHOST and the desired port with LPORT.
       Save the output with -o [output_filename].
 
-#Embedding Payloads to exe, APK
+# Embedding Payloads to exe, APK
 
 Embedding into Windows Executable (exe)
 
