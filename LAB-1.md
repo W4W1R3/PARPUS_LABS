@@ -2,7 +2,7 @@
 
 Objective: Understand the basics of network setup and address assignment.
 
-<h1>`I'll be using packettracer to demo this lab`</h1>
+`<h1>I'll be using packettracer to demo this lab</h1>`
 
 ## {1A} Connecting Two Computers Directly
 
