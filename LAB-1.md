@@ -110,32 +110,95 @@ Replace <ip_address> and <subnet_mask> with the specific IP address and subnet m
 
 ### 2. Set Up Routing Tables
 
-a. Configure Static Routes
+#### a. Configure Static Routes 
 
 Define static routes on the router to reach networks on the opposite side.
 
-bash
-
+`
 router(config)# ip route <destination_network> <subnet_mask> <next_hop>
+`
 
 Replace <destination_network>, <subnet_mask>, and <next_hop> with the details of the target network and next-hop router.
-3. Test Communication
-a. Ping Test
+
+### 3. Test Communication
+
+#### a. Ping Test
 
 From devices on Network A, attempt to ping a device on Network B, and vice versa.
 
-bash
-
+`
 DeviceA> ping <ip_address_of_deviceB>
+`
 
 Ensure successful pings indicate proper communication between the two networks
     
 # {1D} Setting Up Static and DHCP
 
-Task: Understand the difference between static and dynamic IP assignment.
+## Task 1: Assign Static IP Addresses to Devices
 
-Steps:
+### Step 1: Access Router Configuration
 
-    • Assign static IP addresses to devices in a network.
-    • Enable DHCP on a server and configure clients to obtain IP dynamically.
-    • Analyze the advantages and disadvantages of static vs. dynamic addressing.
+    - Connect to the router's web interface using a web browser.
+    - Log in with administrator credentials.
+
+### Step 2: Configure Router Interfaces
+
+    - Identify the interfaces connecting to the two networks.
+    - Assign static IP addresses to these interfaces.
+    
+  Example:
+  - Interface 1: 192.168.1.1/24
+  - Interface 2: 192.168.2.1/24
+
+### Step 3: Connect Devices
+
+    - Connect devices to the router using appropriate cables.
+    - Configure static IP addresses on devices in each network.
+    
+  Example:
+  - Device 1 in Network 1: 192.168.1.2/24
+  - Device 2 in Network 2: 192.168.2.2/24
+
+### Step 4: Verify Connectivity
+
+- Use basic commands (ping) to verify connectivity between devices in different networks.
+
+## Task 2: Understand Static and Dynamic IP Assignment
+
+### Step 1: Enable DHCP on a Server
+
+- Identify a server in one of the networks.
+- Install and configure a DHCP server software (e.g., DHCPd on Linux).
+
+### Step 2: Configure DHCP Server
+
+- Define IP address ranges for each network.
+  Example:
+  - Network 1: 192.168.1.10 to 192.168.1.50
+  - Network 2: 192.168.2.10 to 192.168.2.50
+
+### Step 3: Configure Clients
+
+- Set client devices to obtain IP dynamically (DHCP).
+- Verify that clients receive IP addresses from the DHCP server.
+
+## Task 3: Analyze IP Address Assignment Methods
+
+- Discuss the advantages and disadvantages of static and dynamic IP addressing.
+  
+### Advantages of Static IP:
+- Predictable and stable addressing.
+- Easy identification of devices.
+
+### Disadvantages of Static IP:
+- Manual configuration can be time-consuming.
+- Prone to configuration errors.
+
+### Advantages of Dynamic IP (DHCP):
+- Automatic configuration saves time.
+- Efficient use of IP addresses.
+
+### Disadvantages of Dynamic IP (DHCP):
+- Dependency on DHCP server availability.
+- IP address changes may affect ongoing connections.
+
