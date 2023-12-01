@@ -71,13 +71,64 @@ Steps:
     
 # {1C} Connecting Two Networks Through a Router
 
-Task: Introduce a router to connect two separate networks.
+## Task Overview
 
-Steps:
+Introduce a router to connect two separate networks and ensure seamless communication between devices on these networks.
 
-    • Configure router interfaces.
-    • Set up routing tables.
-    • Test communication between devices on different networks.
+## Steps
+
+### 1. Configure Router Interfaces
+
+#### a. Access Router CLI
+
+Access the command-line interface (CLI) of the router. This can be done through a console connection or a management interface.
+
+```
+router> enable
+router# configure terminal
+```
+#### b. Enter Interface Configuration Mode
+
+Navigate to the interface configuration mode for the interfaces connecting to each network.
+
+`
+router(config)# interface <interface_type> <interface_number>
+`
+
+Replace <interface_type> and <interface_number> with the actual interface type and number (e.g., GigabitEthernet0/0).
+
+#### c. Configure IP Addresses
+
+Assign IP addresses to the router interfaces within the respective network subnets.
+
+`
+router(config-if)# ip address <ip_address> <subnet_mask>
+router(config-if)# no shutdown
+`
+
+Replace <ip_address> and <subnet_mask> with the specific IP address and subnet mask for each interface.
+
+### 2. Set Up Routing Tables
+
+a. Configure Static Routes
+
+Define static routes on the router to reach networks on the opposite side.
+
+bash
+
+router(config)# ip route <destination_network> <subnet_mask> <next_hop>
+
+Replace <destination_network>, <subnet_mask>, and <next_hop> with the details of the target network and next-hop router.
+3. Test Communication
+a. Ping Test
+
+From devices on Network A, attempt to ping a device on Network B, and vice versa.
+
+bash
+
+DeviceA> ping <ip_address_of_deviceB>
+
+Ensure successful pings indicate proper communication between the two networks
     
 # {1D} Setting Up Static and DHCP
 
